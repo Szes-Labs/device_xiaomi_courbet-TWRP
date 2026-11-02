@@ -30,7 +30,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_SHIPPING_API_LEVEL := 30
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := sweet,sweetin
+TARGET_OTA_ASSERT_DEVICE := courbet,courbetin
 
 TARGET_COPY_OUT_VENDOR := vendor
 
@@ -66,6 +66,8 @@ TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
 TW_DEFAULT_BRIGHTNESS := 1200
 TW_MAX_BRIGHTNESS := 1200
+TW_Y_OFFSET := 91
+TW_H_OFFSET := -91
 TWRP_INCLUDE_LOGCAT := true
 TARGET_USES_LOGD := true
 TARGET_USES_MKE2FS := true

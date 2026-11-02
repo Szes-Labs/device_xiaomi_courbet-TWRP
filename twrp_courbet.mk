@@ -16,7 +16,7 @@
 #
 
 # Release name
-PRODUCT_RELEASE_NAME := sweet
+PRODUCT_RELEASE_NAME := courbet
 DEVICE_PATH := device/xiaomi/$(PRODUCT_RELEASE_NAME)
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
@@ -28,7 +28,7 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
 # Inherit any OrangeFox-specific settings
-$(call inherit-product-if-exists, $(DEVICE_PATH)/fox_sweet.mk)
+$(call inherit-product-if-exists, $(DEVICE_PATH)/fox_courbet.mk)
 
 # Enable project quotas and casefolding for emulated storage without sdcardfs
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
@@ -36,6 +36,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := $(PRODUCT_RELEASE_NAME)
 PRODUCT_NAME := twrp_$(PRODUCT_RELEASE_NAME)
-PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := M2101K6G
+PRODUCT_BRAND := Mi
+PRODUCT_MODEL := Mi 11 Lite
 PRODUCT_MANUFACTURER := Xiaomi

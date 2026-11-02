@@ -1,9 +1,9 @@
-# Device tree for Xiaomi Redmi Note 10 Pro/Pro Max (codenamed _sweet_ / _sweetin_)
+# Device tree for Xiaomi Mi 11 Lite (codenamed _courbet_ / _courbetin_)
 
 
 ## Device specifications
 
-| Device                  | Redmi Note 10 Pro/Pro Max                                   |
+| Device                  | Mi 11 Lite                                 |
 | ----------------------- | :---------------------------------------------------------- |
 | SoC     		  | Qualcomm SM7150 Snapdragon 732G                             |
 | CPU     		  | Octa-core (2x2.3 GHz Kryo 470 Gold & 6x1.8 GHz Kryo 470 Silver) |
@@ -12,16 +12,16 @@
 | Shipped Android Version | 11 (MIUI 12)                                                |
 | Storage                 | 64GB / 128GB                                                |
 | MicroSD                 | MicroSDXC                                                   |
-| Battery 		  | Li-Po 5020 mAh, non-removable                               |
-| Display 		  | AMOLED, 120Hz, HDR10, 450 nits (typ), 6.67 inches, 1080 x 2400 pixels, 20:9 ratio (~395 ppi density) |
+| Battery 		  | Li-Po 4250 mAh, non-removable                               |
+| Display 		  | AMOLED, 90Hz, HDR10, 450 nits (typ), 6.55 inches, 1080 x 2400 pixels |
 
 ## Device picture
 
-![Redmi Note 10 Pro](https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-note10-pro-1.jpg "Redmi Note 10 Pro")
+![Mi 11 Lite](https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-mi-11-lite-4g.jpg "Mi 11 Lite")
 
 ---
 ## Kernel sources
-"https://github.com/Mostafameesr/Neom_kernel_xiaomi_sweet.git"
+"https://github.com/Szes-Labs/kernel_xiaomi_sm6150.git"
 
 ---
 ## Copyright notice

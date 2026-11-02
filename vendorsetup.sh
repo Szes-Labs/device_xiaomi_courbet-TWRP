@@ -17,7 +17,7 @@
 #
 #      Please maintain this if you use this script or any part of it
 #
-FDEVICE="sweet"
+FDEVICE="courbet"
 
 fox_get_target_device() {
    if echo "$BASH_SOURCE" | grep -q "/$FDEVICE"; then
@@ -41,7 +41,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
       export TW_DEFAULT_LANGUAGE="en"
       export LC_ALL="C"
       export ALLOW_MISSING_DEPENDENCIES=true
-      export TARGET_DEVICE_ALT="sweetin"
+      export TARGET_DEVICE_ALT="courbetin"
 
       export FOX_RECOVERY_SYSTEM_PARTITION="/dev/block/mapper/system"
       export FOX_RECOVERY_VENDOR_PARTITION="/dev/block/mapper/vendor"
@@ -65,7 +65,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
       # Maintainer & Build Info
       export FOX_BUILD_TYPE="Stable"
       export FOX_MAINTAINER_PATCH_VERSION="2"
-      export OF_MAINTAINER="Mostafameesr"
+      export OF_MAINTAINER="Szè.?"
 
 else
    if [ -z "$FOX_BUILD_DEVICE" -a -z "$BASH_SOURCE" ]; then
