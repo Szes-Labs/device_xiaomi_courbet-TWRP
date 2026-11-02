@@ -1,0 +1,7 @@
+[
+  {
+    "repository": "android_kernel_xiaomi_courbet",
+    "target_path": "kernel/xiaomi/courbet",
+    "branch": "16"
+  }
+]
